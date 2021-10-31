@@ -111,14 +111,14 @@
         </div>
 
         <div data-aos="zoom-in" class="col-md-5 timeline-img-5">
-            <img class="rounded" src="<?php echo base_url('assets/img/historia/talita.jpg') ?>" alt="">
+            <img class="rounded" src="<?php echo base_url('assets/img/historia/fondocollage.jpg') ?>" alt="">
         </div>
 
         <div class="espaciado-secciones-5"></div>
         <div class="espaciado-secciones-historia"></div>
 
         <div data-aos="zoom-in" class="col-md-5 timeline-img-6">
-            <img class="rounded-circle" src="<?php echo base_url('assets/img/logo0.jpeg') ?>" alt="">
+            <img class="rounded-circle" src="<?php echo base_url('assets/img/historia/fondotalita.jpg') ?>" alt="">
         </div>
 
         <div data-aos="zoom-in" class="col-md-2 timeline-year-6 rounded-circle">
