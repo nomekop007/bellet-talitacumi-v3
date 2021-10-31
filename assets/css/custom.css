@@ -1,0 +1,351 @@
+body {
+  background: rgba(255, 255, 255, 1);
+  background: -moz-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255) 100%
+  );
+  background: -webkit-gradient(
+    radial,
+    center center,
+    0px,
+    center center,
+    100%,
+    color-stop(0%, rgba(255, 255, 255)),
+    color-stop(100%, rgba(255, 255, 255))
+  );
+  background: -webkit-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255) 100%
+  );
+  background: -o-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255) 100%
+  );
+  background: -ms-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255) 100%
+  );
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(214, 189, 254) 100%
+  ); /* <-- cambiar color fondo */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 );
+}
+
+.menu-talita a {
+  position: relative;
+  display: block;
+  
+}
+
+.menu-talita a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(#b47dcd, #e878a2, #eb85ab);
+  z-index: 1;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s ease-in-out;
+}
+
+.menu-talita a:hover::before {
+  transform: scaleX(1);
+}
+
+.menu-nav {
+  background: rgba(0, 0, 0, 0.5);
+  font-family: "Lexend Deca", sans-serif;
+  text-transform: uppercase;
+}
+
+/* EFECTO MENU CAMBIO DE COLOR INICIO */
+
+.bg-pri {
+  transition: all 1s ease;
+}
+
+.bg-pri .navbar-collapse ul li a {
+  color: white !important;
+}
+
+.bg-inverse {
+  background-color: white !important;
+  -webkit-box-shadow: 0px 8px 5px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 8px 5px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 8px 5px -6px rgba(0, 0, 0, 0.75);
+}
+
+.bg-inverse .navbar-collapse ul li a {
+  color: #6a0888 !important;
+}
+
+.fa-bars {
+  color: white !important;
+}
+
+.change-i {
+  color: black !important;
+}
+
+/* EFECTO MENU CAMBIO DE COLOR FINAL */
+
+.header {
+  background-color: black;
+  overflow: hidden;
+}
+
+.pagina-fondo {
+  background: url("../img/bgnav.jpg") no-repeat center;
+  background-size: cover;
+  height: 550px;
+}
+
+.tituloPagina {
+  color: white;
+  font-family: "Fleur De Leah", cursive;
+  padding-bottom: 0.2em;
+  font-size: 4rem;
+  letter-spacing: 4px;
+}
+
+/* INICIO DE CSS DE CAROUSEL */
+
+.carousel-item img {
+  background-size: cover;
+  width: 100%;
+  height: 550px;
+  display: block;
+  border-radius: 0.9em;
+}
+
+/* FIN DE CSS CAROUSEL */
+
+.espaciado-secciones {
+  padding-bottom: 2.5em;
+  padding-top: 2.5em;
+}
+
+.seccion-title {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Lexend Deca", sans-serif;
+  text-transform: uppercase;
+}
+
+/* .acordion-galeria{
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+.accordion-button{
+    display: block;
+}
+
+.acordion-title{
+    padding-top: .5em;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: black;
+}
+
+.galeria-img img{
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    padding-top: 2em;
+}
+
+.pagination-custom .page-link{
+    color: black;  
+} */
+
+/* CSS MISION Y VISION  */
+
+.espaciado-secciones-ms {
+  padding-bottom: 2.5em;
+  padding-top: 2.5em;
+}
+
+.title-mision-1 {
+  font-size: 1.5rem;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.text-mision-1 {
+  font-size: 1.1rem;
+  text-align: justify;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.img-mision-1 {
+}
+
+@media (max-width: 768px) {
+  .title-mision-1 {
+    text-align: center;
+    order: 1;
+  }
+
+  .img-mision-1 {
+    order: 2;
+    padding-bottom: 2em;
+  }
+
+  .text-mision-1 {
+    text-align: center;
+    order: 3;
+  }
+
+  .espaciado-secciones-ms-1 {
+    padding-bottom: 2.5em;
+    padding-top: 2.5em;
+    order: 4;
+  }
+}
+
+.title-vision-2 {
+  font-size: 1.5rem;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.text-vision-2 {
+  font-size: 1.1rem;
+  text-align: justify;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.img-vision-2 {
+}
+
+@media (max-width: 768px) {
+  .title-vision-2 {
+    text-align: center;
+    order: 5;
+  }
+
+  .img-vision-2 {
+    order: 6;
+    padding-bottom: 2em;
+  }
+
+  .text-vision-2 {
+    text-align: center;
+    order: 7;
+  }
+
+  .espaciado-secciones-ms-2 {
+    order: 8;
+    padding-bottom: 2.5em;
+    padding-top: 2.5em;
+  }
+}
+
+/* FIN CSS MISION Y VISION  */
+
+/* CSS MAPA */
+
+.talita-map {
+  height: 180px;
+}
+
+.card-profesoras {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.img-profesora {
+  height: 400px;
+  width: 100%;
+  display: block;
+}
+
+.button-collapse {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #6a0888;
+  padding-bottom: 1.3em;
+}
+
+.text-collapse {
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .profe-card {
+    padding-bottom: 1.5em;
+  }
+
+  .text-collapse {
+    text-align: center;
+  }
+}
+
+/* FOOTER */
+
+footer{
+  background-color: black;
+  color: white;
+}
+
+.footer-title-pagina{
+  color: white;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.title-menu-footer{
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.text-menu li a{
+  color: white !important;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.menu-rrss{
+  
+  justify-content: end;
+}
+
+.separador{
+  margin-bottom: 2em;
+}
+
+@media (max-width: 768px) {
+  .txt-title-footer{
+    color: white;
+    font-family: "Lexend Deca", sans-serif;
+    text-align: center;
+    order: 3;
+  }
+
+  .title-menu-footer{
+    text-align: center;
+  }
+
+  .text-menu li a{
+    text-align: center;
+  }
+  
+  .text-menu{
+    margin-bottom: 2em;
+  }
+
+  .rrss{
+    margin-bottom: 1em;
+  }
+}
