@@ -6,6 +6,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 <head>
     <title><?php echo $titulo ?></title>
+    <link rel="shortcut icon" class="rounded-circle" href="<?php echo base_url('assets/img/logo0.jpeg') ?>">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
