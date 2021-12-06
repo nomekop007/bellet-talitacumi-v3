@@ -12,10 +12,10 @@
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active ">
-                    <img src="<?php echo base_url('assets/img/blog.jpg') ?>" class="d-block" alt="...">
+                    <img src="<?php echo base_url('assets/img/fotos/foto11.jpeg') ?>" class="d-block" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="<?php echo base_url('assets/img/fotos/alfayomega.jpeg') ?>" class="d-block" alt="...">
+                    <img src="<?php echo base_url('assets/img/blog.jpg') ?>" class="d-block" alt="...">
                 </div>
                
             </div>

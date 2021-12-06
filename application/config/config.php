@@ -24,7 +24,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 $config['base_url'] = 'http://www.ballettalitacumi.com/';
-
+// http://localhost/bellet-talitacumi-v3/
+// http://www.ballettalitacumi.com/
 /*
 |--------------------------------------------------------------------------
 | Index File
